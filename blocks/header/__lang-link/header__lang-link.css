@@ -7,6 +7,7 @@
     color: #fff;
     text-decoration: none;
     transition: opacity .5s ease;
+    margin: 0;
 }
 
 .header__lang-link:hover {
