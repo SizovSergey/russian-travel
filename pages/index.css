@@ -1,6 +1,6 @@
 /* normilize and inter */
 @import url('../vendor/normalize.css');
-@import url('../vendor/fonts/inter.css');
+@import url('../vendor/inter.css');
 /* ROOT */
 @import url('../blocks/root/root.css');
 /* HEADER */
