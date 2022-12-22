@@ -1,0 +1,11 @@
+.header__list-content {
+    margin-right: 18px;
+  }
+  
+  .header__list-content:last-of-type {
+    margin-right: 0;
+  }
+  
+  .header__list-content:first-child {
+    text-decoration: underline;
+}

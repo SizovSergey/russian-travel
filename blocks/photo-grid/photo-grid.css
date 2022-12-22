@@ -1,0 +1,38 @@
+.photo-grid {
+    padding-top: 92px;
+    max-width: 1184px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*grid-template-columns: repeat(auto-fit, minmax(284px,max-content)); и убрать grid-template-rows тогда колонки станут резиновыми */
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 16px;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .photo-grid {
+        max-width: 288px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 12px;
+        padding-top: 64px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .photo-grid {
+        max-width: 720px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 16px;
+        padding-top: 88px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .photo-grid {
+        max-width: 928px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 14px;
+    }
+}
