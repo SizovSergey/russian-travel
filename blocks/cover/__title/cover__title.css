@@ -2,7 +2,7 @@
     max-width: 560px;
     margin: 0 auto 0;
     font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
+    font-style: Black;
     font-weight: 900;
     font-size: 72px;
     line-height: 106%;
@@ -11,7 +11,7 @@
     z-index: 1;
 }
 
-@media screen and (min-width:320px) and (max-width:767px) {
+@media screen and (max-width:767px) {
     .cover__title {
         max-width: 288px;
         font-size: 32px;
