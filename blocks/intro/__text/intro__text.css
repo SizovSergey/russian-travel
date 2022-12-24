@@ -9,13 +9,7 @@
     color: #fff;
 }
 
-@media screen and (min-width:1024px) {
-    .intro__text {
-        max-width: 690px;
-    }
-}
-
-@media screen and (max-width:768px) {
+@media screen and (max-width:1023px) {
     .intro__text {
         max-width: 720px;
     }
@@ -26,4 +20,4 @@
         max-width: 288px;
         margin: 40px auto 0;
     }
-  }
+}

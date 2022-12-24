@@ -1,6 +1,6 @@
 .place__link {
     max-width: 456px;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -15,13 +15,13 @@
     opacity: .8;
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (max-width:1023px) {
     .place__link {
         max-width: 352px;
     }
 }
 
-@media screen and (min-width:320px) and (max-width:767px) {
+@media screen and (max-width:767px) {
     .place__link {
         max-width: 288px;
     }

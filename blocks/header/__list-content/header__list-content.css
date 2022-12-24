@@ -1,11 +1,14 @@
 .header__list-content {
     margin-right: 18px;
+    margin-bottom: 6px;
   }
   
   .header__list-content:last-of-type {
     margin-right: 0;
   }
-  
-  .header__list-content:first-child {
-    text-decoration: underline;
+
+@media screen and (max-width:767px){
+    .header__lang-link {
+        margin-bottom: 8px;
+    }
 }

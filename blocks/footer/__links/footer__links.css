@@ -3,30 +3,19 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 16px;
+    gap: 18px;
     list-style: none;
     padding: 0;
+    margin: 0;
 
 }
 
-@media screen and (min-width:1024px) and (max-width:1279px) {
-    .intro__list {
-        max-width: 928px;
-    }
-}
-
-@media screen and (min-width:768px) and (max-width:1023px) {
-    .intro__list {
-        max-width: 720px;
-    }
-}
-
-@media screen and (min-width:320px) and (max-width:767px){
+@media (max-width: 767px) {
     .footer__links {
         display: flex;
         flex-flow: column wrap;
         justify-content: space-between;
         align-items: flex-start;
-        gap: 16px;
+        gap: 32px;
     }
-  }
+}
